@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day8 display properties</title>
+    <style>
+        .input1{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .p1{
+            width: 220px;
+            font-weight: bold;
+            display: inline-block;
+            vertical-align: middle;
+            margin-bottom: 30px;
+        }
+        .Google{
+            width: 300px;
+            height: 100px;
+            object-fit: cover;
+            display: block;
+            padding-left: 50%;
+        }
+        .input2{
+            margin-top: 20px;
+            width: 400px;
+            height: 20px;
+            border-radius: 20px;
+            padding: 5px;
+            border: none;
+            box-shadow: 8px 10px 10px rgba(0,0,0,0.3);
+            margin-bottom: 50px;
+        }
+        .first,.Last{
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            margin-right: 3px;
+            border: 1px solid rgb(100, 100, 100);
+            padding-left: 10px;
+        }
+        .Email{
+            display: block;
+            width: 220px;
+            margin-top: 10px;
+            height: 30px;
+            padding-left: 10px;
+        }
+        .Sign{
+            width: 230px;
+            margin-top: 10px;
+            height: 40px;
+            background-color: rgb(50, 77, 233);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            border: none;
+            border-radius: 5px;
+        }
+        .text{
+            font-size: xx-large;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .pickup,.destination{
+            display: block;
+            margin-bottom: 10px;
+            background-color: rgb(217, 219, 219);
+            color:black;
+            border: none;
+            height: 30px;
+            width: 300px;
+            padding-left: 10px;
+        }
+        .Request-btn{
+            height: 35px;
+            width: 130px;
+            color: white;
+            background-color: black;
+            margin-top: 20px;
+        }
+        .later-btn{
+            height: 35px;
+            width: 150px;
+            color: black;
+            background-color: rgb(217, 219, 219);
+            margin-top: 20px;
+            border: none;
+            margin-left: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        .Google1{
+        }
+    </style>
+</head>
+<body>
+    <input  class="input1" type="text" placeholder="Name">
+    <input class="input1" type="text" placeholder="Email">
+    <div>
+    <p class="p1">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button>yes</button>
+    <button>No</button>
+    </div>
+    <div class="Google1">
+    <img class="Google" src="download.jpeg">
+    <input class="input2" type="text" placeholder="Search Google or type a URL"/>
+
+    </div>
+    <div class="day8">
+        <input class="first" type="text" placeholder="First Name">
+        <input class="Last" type="text" placeholder="Last Name">
+        <input class="Email" type="text" placeholder="Email">
+        <button class="Sign">Sign Up</button>
+    </div>
+    <div class="uber">
+        <p class="text">Request a ride now</p>
+        <input class="pickup" type="text" placeholder="Enter pickup location"/>
+        <input class="destination" type="text" placeholder="Enter destination">
+        <button class="Request-btn">Request now</button>
+        <button class="later-btn">Schedule for later</button>
+    </div>
+</body>
+</html>
